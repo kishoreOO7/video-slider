@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .slider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.container ul{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
+.container ul li{
+    list-style: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+.container ul li video{
+    width: 200px;
+    transition: all 0.3s;
+}
+.container ul li video:hover{
+    transform: scale(1.1);
+}
+
+video{
+    width: 100%;
+    height: 100%;
+}

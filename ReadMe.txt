@@ -1,5 +1,5 @@
 If the is css not working 
-please change path accordin to your system.
+please change path according to your system.
 
 and videos you have to download your own
 for best hd 4k videos and images in free
